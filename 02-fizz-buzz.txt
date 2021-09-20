@@ -1,0 +1,23 @@
+Nama: Avina Yustriani
+Grup: 5
+Tugas: Pseudocode 02-fizz-buzz
+----------------------------------------------------------------------
+
+START
+
+STORE "Listnumber" WITH ANY NUMBER
+STORE i WITH 0
+
+WHILE i LESS THAN "Listnumber"
+    STORE currentValue WITH i PLUS 1
+
+    IF "Listnumber" IS DIVISIBLE BY 3
+        DISPLAY "Fizz"
+    ELSE IF "Listnumber" IS DIVISIBLE BY 5
+        DISPLAY "Buzz"
+    ELSE IF "Listnumber" IS DIVISIBLE BY 3 AND 5
+        DISPLAY "FizzBuzz"
+    END IF
+
+SET i WITH i PLUS 1
+ENDWHILE

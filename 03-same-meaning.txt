@@ -1,0 +1,14 @@
+Nama: Avina Yustriani
+Grup: 5
+Tugas: Pseudocode 03-same-meaning
+----------------------------------------------------------------------
+
+START
+
+STORE "word" WITH ANY STRING
+
+IF ("word" = "word" REVERSE)
+    DISPLAY "true"
+ELSE
+    DISPLAY "false"
+END IF

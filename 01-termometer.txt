@@ -1,0 +1,20 @@
+Nama: Avina Yustriani
+Grup: 5
+Tugas: Pseudocode 01-termometer
+----------------------------------------------------------------------
+
+START
+
+STORE "value-temperatur" WITH ANY NUMBER
+STORE "type-temperatur" WITH "Fahrenheit" OR "Kelvin" OR "Celcius"
+
+IF "type-temperatur" IS "Fahrenheit"
+    CALCULATE "result" WITH "(value-temperatur - 32) * (5/9)"
+    DISPLAY "result"
+ELSE IF "type-temperatur" IS "Kelvin"
+    CALCULATE "result" WITH "value-temperatur - 273.15"
+    DISPLAY "result"
+ELSE IF "type-temperatur" is "Celcius"
+    CALCULATE "result" WITH "value-temperatur"
+    DISPLAY "result"
+END IF
